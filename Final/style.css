@@ -1,0 +1,64 @@
+/* font-family: 'Poppins', sans-serif; */
+
+
+/* #0a2d63; */
+
+
+/* font-family: 'El Messiri', sans-serif; */
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border: 1.5px solid #0a2d63;
+    color: #0a2d63;
+}
+
+.btn:hover {
+    background-color: rgb(51, 51, 189);
+}
+
+#section1 {
+    background-image: url(photos/santorini.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 70% 50%;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+.inner {
+    color: white;
+}
+
+.inner h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.h1 {
+    font-family: 'El Messiri', sans-serif;
+    color: #0a2d63;
+}
+
+h5 {
+    color: #0a2d63;
+    font-family: 'El Messiri', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
